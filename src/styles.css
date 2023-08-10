@@ -1,0 +1,34 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  width: 80vw;
+  height: 10rem;
+  background-color: grey;
+  border-radius: 2rem;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.buttons > div {
+  width: 2rem;
+  height: 2rem;
+  background-color: white;
+  margin: 0.5rem;
+  margin-top: 2rem;
+  font-weight: 800;
+  border-radius: 3rem;
+}
+
+.active {
+  background-color: yellowgreen;
+  color: gold;
+}
